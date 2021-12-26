@@ -25,21 +25,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Cairo`,
-            variants: [`700`]
-          },
-          {
-            family: `Roboto`,
-            variants: [`400`, `700`]
-          }
-        ]
-      }
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-141658275-1'

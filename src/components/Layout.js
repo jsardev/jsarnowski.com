@@ -2,6 +2,10 @@ import React from 'react';
 
 import SEO from './SEO';
 
+import "@fontsource/cairo/700.css"
+import "@fontsource/roboto/400.css"
+import "@fontsource/roboto/700.css"
+
 export default ({ children }) => (
   <React.Fragment>
     <SEO lang="en" />
