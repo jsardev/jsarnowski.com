@@ -3,7 +3,7 @@
   "private": true,
   "author": "Jakub Sarnowski <hello@jsarnowski.com>",
   "engines": {
-    "node": "<=12"
+    "node": ">=18"
   },
   "scripts": {
     "build": "gatsby build",
@@ -16,15 +16,15 @@
     "@fontsource/roboto": "^4.5.1",
     "@rehooks/component-size": "^1.0.2",
     "classnames": "^2.2.6",
-    "gatsby": "^2.8.3",
-    "gatsby-plugin-google-analytics": "^2.0.20",
-    "gatsby-plugin-manifest": "^2.1.1",
-    "gatsby-plugin-postcss": "^2.0.7",
-    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby": "^5.12.8",
+    "gatsby-plugin-google-analytics": "^5.12.0",
+    "gatsby-plugin-manifest": "^5.12.2",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "gatsby-plugin-react-helmet": "^6.12.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "tailwindcss": "1.9.0"
   },
   "devDependencies": {
