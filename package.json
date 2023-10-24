@@ -2,6 +2,9 @@
   "name": "jsarnowski.com",
   "private": true,
   "author": "Jakub Sarnowski <hello@jsarnowski.com>",
+  "engines": {
+    "node": "<=12"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -22,7 +25,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "tailwindcss": "^1.0.3"
+    "tailwindcss": "1.9.0"
   },
   "devDependencies": {
     "prettier": "^1.17.1"

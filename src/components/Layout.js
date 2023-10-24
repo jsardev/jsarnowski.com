@@ -2,31 +2,15 @@ import React from 'react';
 
 import SEO from './SEO';
 
-import "@fontsource/cairo/700.css"
-import "@fontsource/roboto/400.css"
-import "@fontsource/roboto/700.css"
+import '@fontsource/cairo/700.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/700.css';
 
 export default ({ children }) => (
   <React.Fragment>
     <SEO lang="en" />
-    <main className="text-xs lg:text-base relative overflow-hidden">
+    <main className="text-xs lg:text-base relative overflow-hidden flex items-center justify-center h-screen">
       {children}
     </main>
-    <footer
-      className="flex flex-wrap justify-center sm:justify-between bg-main py-2 px-4 text-white"
-      style={{
-        fontSize: 16
-      }}
-    >
-      <span className="w-full sm:w-auto text-center">
-        Copyright © 2019 Jakub Sarnowski
-      </span>
-      <a
-        className="w-full sm:w-auto text-center"
-        href="https://www.gatsbyjs.org"
-      >
-        Powered by GatsbyJS
-      </a>
-    </footer>
   </React.Fragment>
 );

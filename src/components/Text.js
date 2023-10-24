@@ -10,7 +10,7 @@ const Heading = ({ level, className, ...props }) =>
 export const H1 = ({ className, ...props }) => (
   <Heading
     level={1}
-    className={classNames('text-3xl lg:text-6xl', className)}
+    className={classNames('text-2xl lg:text-6xl', className)}
     {...props}
   />
 );

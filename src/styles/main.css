@@ -5,7 +5,7 @@ html {
   color: theme('colors.text');
   font-family: theme('fontFamily.text');
   font-weight: 400;
-  font-size: 36px;
+  font-size: 24px;
   @apply .antialiased;
   @apply .leading-snug;
 }
