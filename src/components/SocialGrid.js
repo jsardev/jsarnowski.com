@@ -6,9 +6,9 @@ import iconDev from '../icons/social-dev.svg';
 import iconLinkedIn from '../icons/social-linkedin.svg';
 
 const socials = [
-  { href: 'https://github.com/sarneeh', icon: iconGithub },
-  { href: 'https://dev.to/sarneeh', icon: iconDev },
-  { href: 'https://linkedin.com/in/jakub-sarnowski', icon: iconLinkedIn }
+  { href: 'https://github.com/jsardev', icon: iconGithub },
+  { href: 'https://dev.to/jsardev', icon: iconDev },
+  { href: 'https://linkedin.com/in/jsardev', icon: iconLinkedIn }
 ];
 
 export default ({ className }) => (
